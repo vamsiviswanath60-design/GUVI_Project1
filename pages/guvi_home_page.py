@@ -76,6 +76,5 @@ class GuviHomePage(BasePage):
     def click_profile(self):
      self.js_click(self.PROFILE_ICON)
 
-
     def click_logout(self):
      self.click(self.LOGOUT_BUTTON)
