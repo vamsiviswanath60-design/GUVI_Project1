@@ -14,6 +14,5 @@ def test_10_verify_logout(driver):
     home_page.click_login()
     time.sleep(2)
     logout_page.click_profile()
-    time.sleep(2)
     logout_page.click_logout()
     assert "https://www.guvi.in/" == driver.current_url
